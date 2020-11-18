@@ -17,3 +17,4 @@ Color.new('seagreen',  '#698b69')
 Color.new('turquoise', '#698b69')
 
 Group.new('ColorColumn', c.none, c.gray2, style.none)
+Group.new('CursorLineNr', c.blue, c.none, style.bold)
