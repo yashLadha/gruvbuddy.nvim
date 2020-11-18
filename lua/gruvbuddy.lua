@@ -1,4 +1,4 @@
-require("colorbuddy").setup()
+local Color, c, Group, g, style = require("colorbuddy").setup()
 
 Color.new('white',     '#f2e5bc')
 Color.new('red',       '#cc6666')
@@ -16,3 +16,4 @@ Color.new('brown',     '#a3685a')
 Color.new('seagreen',  '#698b69')
 Color.new('turquoise', '#698b69')
 
+Group.new('ColorColumn', c.none, c.gray2, style.none)
