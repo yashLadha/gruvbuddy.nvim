@@ -2,7 +2,7 @@ local Color, c, Group, g, style = require("colorbuddy").setup()
 
 Color.new('white',     '#f2e5bc')
 Color.new('red',       '#cc6666')
-Color.new('pink',      '#fef601')
+Color.new('pink',      '#ff028d')
 Color.new('green',     '#99cc99')
 Color.new('yellow',    '#f8fe7a')
 Color.new('blue',      '#81a2be')
@@ -13,9 +13,13 @@ Color.new('violet',    '#b294bb')
 Color.new('orange',    '#de935f')
 Color.new('brown',     '#a3685a')
 
-Color.new('seagreen',  '#698b69')
-Color.new('turquoise', '#698b69')
-
 Group.new('ColorColumn', c.none, c.gray2, style.none)
 Group.new('CursorLineNr', c.blue, c.none, style.bold)
 Group.new('Comment', c.grey, c.none, style.italic)
+Group.new('Normal', c.none, c.none, style.none)
+Group.new('LineNr', c.gray2, c.none, style.none)
+Group.new('SignColumn', c.gray2, c.none, style.none)
+
+-- LSP Diagnostic
+Group.new('LspDiagnosticsVirtualTextHint', c.white, c.gray1, style.none)
+Group.new('LspDiagnosticsFloatingHint', c.white, c.none, style.none)
