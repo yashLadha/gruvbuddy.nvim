@@ -16,9 +16,9 @@ Color.new('brown',     '#a3685a')
 Group.new('ColorColumn', c.none, c.gray2, style.none)
 Group.new('CursorLineNr', c.blue, c.none, style.bold)
 Group.new('Comment', c.grey, c.none, style.italic)
-Group.new('Normal', c.none, c.none, style.none)
-Group.new('LineNr', c.gray2, c.none, style.none)
-Group.new('SignColumn', c.gray2, c.none, style.none)
+-- Group.new('Normal', c.none, c.none, style.none)
+-- Group.new('LineNr', c.gray3, c.none, style.none)
+-- Group.new('SignColumn', c.gray2, c.none, style.none)
 
 -- LSP Diagnostic
 Group.new('LspDiagnosticsVirtualTextHint', c.white, c.gray1, style.none)
