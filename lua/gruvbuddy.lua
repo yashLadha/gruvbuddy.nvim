@@ -1,6 +1,8 @@
 local Color, c, Group, g, style = require("colorbuddy").setup()
 
 Color.new('gray0', '#272822')
+Color.new('gray1', '#1c1c16')
+Color.new('gray2', '#43433c')
 Color.new('white',     '#F8F8F2')
 Color.new('red',       '#f92672')
 Color.new('green',     '#A6E22E')
