@@ -26,6 +26,9 @@ Group.new('Visual', c.black, c.yellow, style.none)
 Group.new('TabActive', c.white, c.gray1, style.bold)
 Group.new('TabInactive', c.white, c.gray2, style.none)
 
+-- ALE Highlighting
+Group.new('ALEError', c.none, c.none, style.undercurl)
+
 -- LSP Diagnostic
 Group.new('LspDiagnosticsVirtualTextHint', c.white, c.gray1, style.none)
 Group.new('LspDiagnosticsFloatingHint', c.white, c.none, style.none)
