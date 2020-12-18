@@ -13,6 +13,8 @@ Color.new('pink',    '#ff6699	')
 Color.new('purple',    '#ec80ff')
 Color.new('orange',    '#FD971F')
 Color.new('lightorange',     '#E69F66')
+Color.new('aqua',      '#6fc875')
+Color.new('brown',     '#a3685a')
 
 
 Group.new('ColorColumn', c.none, c.gray2, style.none)
